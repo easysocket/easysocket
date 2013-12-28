@@ -1,1 +1,1 @@
-module.exports = require('./lib/easysocket');
+exports.exports = require('./lib/easysocket');
