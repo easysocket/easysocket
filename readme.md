@@ -37,7 +37,7 @@ There are two important options:
 _Synchronously_ sets any value for easysocket
 
 ```
-     $ easysocket keys
+     $ easysocket lis
 
     * ssl : specify that you are using ssl or not default:false
 
