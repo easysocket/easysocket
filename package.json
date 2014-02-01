@@ -22,7 +22,7 @@
     "keywords": [
         "socket"
     ],
-    "version": "0.0.1",
+    "version": "0.4.1",
     "preferGlobal": "true",
     "licenses": [
         {
@@ -37,25 +37,12 @@
     "bin": {
         "easysocket": "./bin/easysocket"
     },
-    "devDependencies": {
-        "broadway": "0.2.x",
-        "eventemitter2": "0.4.x",
-        "request": "2.x.x",
-        "vows": "0.7.x"
-    },
     "dependencies": {
         "socket.io": "*",
-        "colors": "*",
         "cliff": "*",
         "flatiron": "*",
-        "forever-monitor": "*",
         "nconf": "*",
-        "nssocket": "*",
-        "optimist": "*",
         "pkginfo": "*",
-        "timespan": "*",
-        "watch": "*",
-        "utile": "*",
         "winston": "*",
         "union": "*"
     }
