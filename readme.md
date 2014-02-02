@@ -26,8 +26,28 @@ You can use easysocket to run any kind of script continuously (whether it is wri
 ### $ easysocket start
 Starts easysocket with given config.
 
+```
+$ easysocket start
+    info  - socket.io started
+    info: Listening on http://localhost:7777
+
+$ easysocket start -p 9999
+    info  - socket.io started
+    info: Listening on http://localhost:9999
+
+```
+
 ### $ easysocket config
 _Synchronously_ gets the all configuration (config) for the easysocket module.
+
+```
+data:    {
+data:       root: '/path/of/your/root',
+data:       port: '7777',
+data:       privateKey: 'm0sts3cur3k3y',
+data:       ssl: 'false'
+data:    }
+```
 
 There are two important options:
 
