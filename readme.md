@@ -37,6 +37,7 @@ There are two important options:
 ### $ easysocket set <key> <val>
 _Synchronously_ sets any value for easysocket
 
+
 ```
      $ easysocket list
 
