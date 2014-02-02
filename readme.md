@@ -34,7 +34,7 @@ There are two important options:
 * root:     Directory to put all default easysocket config
 * port:     easysocket runs on this port `default:7777`
 
-### $ easysocket set <key> <val>
+### $ easysocket set key val
 _Synchronously_ sets any value for easysocket
 
 
