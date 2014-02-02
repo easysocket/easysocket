@@ -2,6 +2,12 @@ easysocket
 ==========
 easy websocket for everyone
 
+### Instaling
+```
+  $ npm install easysocket -g
+  $ easysocket start
+```
+
 ### Using easysocket from the command line
 The usage options are simple:
 

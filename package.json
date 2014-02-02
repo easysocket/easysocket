@@ -1,7 +1,27 @@
 {
     "name": "easysocket",
+    "preferGlobal": "true",
+    "description": "easy socket for everyone",
+    "version": "0.4.2",
+    "author": "Easysocket <info@easysocket.io>",
+    "maintainers": [
+        "ertugrultas <ertugrultas@gmail.com>",
+        "salimkayabasi <salim.kayabasi@gmail.com>"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "http://github.com/easysocket/easysocket.git"
+    },
+    "keywords": [
+        "websocket",
+        "socket",
+        "realtime",
+        "socket.io",
+        "comet",
+        "ajax"
+    ],
     "homepage": "http://github.com/easysocket/easysocket",
-    "author": [
+    "authors": [
         {
             "name": "Ertuğrul TAŞ",
             "url": "http://github.com/maniacneron"
@@ -11,19 +31,6 @@
             "url": "http://github.com/salimkayabasi"
         }
     ],
-    "bin": {
-        "easysocket": "./easysocket.js"
-    },
-    "repository": {
-        "type": "git",
-        "url": "http://github.com/easysocket/easysocket.git"
-    },
-    "description": "easy socket for everyone",
-    "keywords": [
-        "socket"
-    ],
-    "version": "0.4.1",
-    "preferGlobal": "true",
     "licenses": [
         {
             "type": "MIT",
