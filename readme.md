@@ -23,21 +23,22 @@ You can use easysocket to run any kind of script continuously (whether it is wri
     -h, --help       You're staring at it
 ```
 
-### easysocket start
+### $ easysocket start
 Starts easysocket with given config.
 
-### easysocket config
+### $ easysocket config
 _Synchronously_ gets the all configuration (config) for the easysocket module.
 
 There are two important options:
+
 * root:     Directory to put all default easysocket config
 * port:     easysocket runs on this port `default:7777`
 
-### easysocket set <key> <val>
+### $ easysocket set <key> <val>
 _Synchronously_ sets any value for easysocket
 
 ```
-     $ easysocket lis
+     $ easysocket list
 
     * ssl : specify that you are using ssl or not default:false
 
