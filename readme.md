@@ -14,9 +14,9 @@ The usage options are simple:
   actions:
     start               Start your basic easysocket server
     config              Lists all easysocket configuration
+    list                List of all keys
     set <key> <val>     Sets the specified easysocket config <key>
     clear <key>         Clears the specified easysocket config <key>
-    keys                List of all keys
 
   options:
     -p  PORT         Base port for easysocket server
@@ -55,9 +55,8 @@ There are two important options:
 * root:     Directory to put all default easysocket config
 * port:     easysocket runs on this port `default:7777`
 
-### $ easysocket set key val
-_Synchronously_ sets any value for easysocket
-
+### $ easysocket list
+List of all config keys
 
 ```
      $ easysocket list
@@ -71,6 +70,50 @@ _Synchronously_ sets any value for easysocket
         * privateKey:  easysocket can be used with any privateKey for preventing unauthorized access
         * auth:  domain based access control, if set "true", have to give domain
         * domain: give a string or array for white domain list for server
+```
+
+
+### $ easysocket set _key_ _val_
+Update or insert new key for easysocket config
+
+```
+$ easysocket set port 9999
+    info:    Setting easysocket config: port
+    data:    {
+    data:       root: '/path/of/your/root',
+    data:       port: '9999'
+    data:    }
+    info:    easysocket config saved: /path/of/your/root/config.json
+```
+```
+$ easysocket set lovingEasySocket YES
+    info:    Setting easysocket config: port
+    data:    {
+    data:       root: '/path/of/your/root',
+    data:       port: '9999',
+    data:       lovingEasySocket: 'YES'
+    data:    }
+    info:    easysocket config saved: /path/of/your/root/config.json
+```
+
+### $ easysocket clear _key_
+Basically unset of given key
+
+```
+$ easysocket clear port
+    warn:    Cannot clear reserved config: port
+    warn:    Use `easysocket set port` instead
+```
+* some keys are mandatory `root,port`
+
+```
+$ easysocket clear lovingEasySocket
+    info:    Clearing easysocket config: lovingEasySocket
+    data:    {
+    data:       root: '/path/of/your/root',
+    data:       port: '9999'
+    data:    }
+    info:    easysocket config saved: /path/of/your/root/config.json
 ```
 
 Authors
