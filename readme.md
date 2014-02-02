@@ -1,9 +1,9 @@
-# easysocket
-
+easysocket
+==========
 easy websocket for everyone
 
 ### Using easysocket from the command line
-You can use easysocket to run any kind of script continuously (whether it is written in node.js or not). The usage options are simple:
+The usage options are simple:
 
 ```
   $ easysocket --help
@@ -30,7 +30,8 @@ Starts easysocket with given config.
 $ easysocket start
     info  - socket.io started
     info: Listening on http://localhost:7777
-
+```
+```
 $ easysocket start -p 9999
     info  - socket.io started
     info: Listening on http://localhost:9999
@@ -61,16 +62,18 @@ _Synchronously_ sets any value for easysocket
 ```
      $ easysocket list
 
-    * ssl : specify that you are using ssl or not default:false
+        * ssl : specify that you are using ssl or not default:false
 
-    * pemcert: path of "cert" file, this is mandatory if "ssl" is "true"
-    * pemkey: path of "key" file, this is mandatory if "ssl" is "true"
-    * pemca: path of "ca" file, this is mandatory if "ssl" is "true"
+        * pemcert: path of "cert" file, this is mandatory if "ssl" is "true"
+        * pemkey: path of "key" file, this is mandatory if "ssl" is "true"
+        * pemca: path of "ca" file, this is mandatory if "ssl" is "true"
 
-    * privateKey:  easysocket can be used with any privateKey for preventing unauthorized access
-    * auth:  domain based access control, if set "true", have to give domain
-    * domain: give a string or array for white domain list for server
-
+        * privateKey:  easysocket can be used with any privateKey for preventing unauthorized access
+        * auth:  domain based access control, if set "true", have to give domain
+        * domain: give a string or array for white domain list for server
 ```
 
-#### Authors: [Ertugrul Tas](http://github.com/maniacneron) [Salim Kayabasi](http://github.com/salimkayabasi)
+Authors
+==========
+* [Ertugrul Tas](http://github.com/maniacneron)
+* [Salim Kayabasi](http://github.com/salimkayabasi)
