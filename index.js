@@ -1,0 +1,1 @@
+exports.exports = require('./lib/easysocket');

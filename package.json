@@ -1,0 +1,49 @@
+{
+    "name": "easysocket",
+    "homepage": "http://github.com/easysocket/easysocket",
+    "author": [
+        {
+            "name": "Ertuğrul TAŞ",
+            "url": "http://github.com/maniacneron"
+        },
+        {
+            "name": "Salim KAYABAŞI",
+            "url": "http://github.com/salimkayabasi"
+        }
+    ],
+    "bin": {
+        "easysocket": "./easysocket.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "http://github.com/easysocket/easysocket.git"
+    },
+    "description": "easy socket for everyone",
+    "keywords": [
+        "socket"
+    ],
+    "version": "0.4.1",
+    "preferGlobal": "true",
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "http://rem.mit-license.org"
+        }
+    ],
+    "main": "./lib/easysocket",
+    "scripts": {
+        "start": "./lib/easysocket.js"
+    },
+    "bin": {
+        "easysocket": "./bin/easysocket"
+    },
+    "dependencies": {
+        "socket.io": "*",
+        "cliff": "*",
+        "flatiron": "*",
+        "nconf": "*",
+        "pkginfo": "*",
+        "winston": "*",
+        "union": "*"
+    }
+}
