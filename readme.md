@@ -1,6 +1,7 @@
-easysocket
+EasySocket
 ==========
 easy websocket for everyone
+demo as cloud service : [easysocket.io](http://easysocket.io)
 
 ### Instaling
 ```
