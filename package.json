@@ -2,7 +2,7 @@
     "name": "easysocket",
     "preferGlobal": "true",
     "description": "easy socket for everyone",
-    "version": "0.4.2",
+    "version": "0.4.3",
     "author": "Easysocket <info@easysocket.io>",
     "maintainers": [
         "ertugrultas <ertugrultas@gmail.com>",
