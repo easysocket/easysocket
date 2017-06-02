@@ -1,5 +1,7 @@
 EasySocket
 ==========
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/easysocket/easysocket.svg)](https://greenkeeper.io/)
 easy websocket for everyone
 demo as cloud service : [easysocket.io](http://easysocket.io)
 
